@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".activityinicio">
+
+    <ImageView
+        android:id="@+id/iconopluma2"
+        android:layout_width="165dp"
+        android:layout_height="212dp"
+        android:contentDescription="@string/todo_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/icono" />
+
+    <TextView
+        android:id="@+id/txttitulo3"
+        android:layout_width="233dp"
+        android:layout_height="124dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/men_de_juegos"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="404dp"
+        android:layout_height="343dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64">
+
+        <Button
+            android:id="@+id/btnsilabas"
+            android:layout_width="252dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="4dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/silabas"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.013"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnabecedario"
+            android:layout_width="252dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/abecedario"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btnsilabas"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnvocales"
+            android:layout_width="252dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/vocales"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/btnabecedario"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.235" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

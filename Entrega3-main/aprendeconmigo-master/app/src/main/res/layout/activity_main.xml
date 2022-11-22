@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/iconopluma1"
+        android:layout_width="165dp"
+        android:layout_height="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icono"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/txttitulo1"
+        android:layout_width="255dp"
+        android:layout_height="139dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/aprende_conmigo"
+        android:textColor="#FFFFFF"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <LinearLayout
+        android:id="@+id/layoutinicio1"
+        android:layout_width="404dp"
+        android:layout_height="314dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767">
+
+        <Button
+            android:id="@+id/btniniciar"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:onClick="irjuegos"
+            android:text="@string/iniciar"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnopciones"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:onClick="iropciones"
+            android:text="@string/opciones"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnsalir"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:backgroundTint="#673AB7"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/salir"
+            android:textColor="#FFEB3B"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtmensaje2"
+        android:layout_width="369dp"
+        android:layout_height="56dp"
+        android:text="@string/selecciona_una_opci_n_del_men"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">aprendeconmigo</string>
+    <string name="aprende_conmigo">APRENDE CONMIGO</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="opciones">OPCIONES</string>
+    <string name="salir">SALIR</string>
+    <string name="selecciona_una_opci_n_del_men">Selecciona una opción del menú:</string>
+    <string name="todo">TODO</string>
+    <string name="men_de_juegos">MENÚ DE JUEGOS</string>
+    <string name="silabas">SILABAS</string>
+    <string name="abecedario">Abecedario</string>
+    <string name="vocales">VOCALES</string>
+    <string name="todo_">TODO</string>
+    <string name="selecciona_una_secci_n_a_configurar">Selecciona una sección a configurar:</string>
+    <string name="opciones_">OPCIONES</string>
+    <string name="pantalla">PANTALLA</string>
+    <string name="sonido">SONIDO</string>
+    <string name="tienda">TIENDA</string>
+    <string name="todo1_">TODO</string>
+    <string name="base_de_datos">Base de Datos</string>
+    <string name="salir_">Salir</string>
+    <string name="mapa">Mapa</string>
+    <string name="title_activity_maps">Maps</string>
+</resources>
